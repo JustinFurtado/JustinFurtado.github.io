@@ -147,11 +147,11 @@ function handleMouseClick(evt) {
 // handle window resizing!
 function onWindowResize() {
     if (game) {
-        game.onWindowResize(window.innerWidth, window.innerHeight);
+        game.onWindowResize(window.innerWidth/2, window.innerHeight/2);
     }
 
     if (renderer) {
-        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setSize(window.innerWidth/2, window.innerHeight/2);
     }
 }
 
@@ -171,13 +171,13 @@ function onScroll(e) {
 
 (function () {
     // capture width and height
-    var width = window.innerWidth;
-    var height = window.innerHeight;
+    var width = window.innerWidth / 2;
+    var height = window.innerHeight / 2;
 
     // create renderer, size to window
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    document.body.appendChild(renderer.domElement);
+    document.getElementById('myGame').appendChild(renderer.domElement);
 
     // create and initialize game
     game = new _game2.default('test');
