@@ -177,11 +177,12 @@ function onScroll(e) {
     // create renderer, size to window
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    document.getElementById('myGame').appendChild(renderer.domElement);
-
+    var cnvs = document.getElementById('myGame').appendChild(renderer.domElement);
+    
     // create and initialize game
     game = new _game2.default('test');
     game.initializeGame(width, height);
+    game.cnvs = cnvs;
 
     // clock for DT
     var clock = new THREE.Clock();
@@ -398,8 +399,19 @@ var Game = function () {
     }, {
         key: 'onMouseMove',
         value: function onMouseMove(e) {
-            this.mouseVector.x = 2 * (e.clientX / this.width) - 1;
-            this.mouseVector.y = 1 - 2 * (e.clientY / this.height);
+            var x = e.clientX;
+            var y = e.clientY;
+
+            if (this.cnvs){
+                var rect = this.cnvs.getBoundingClientRect();
+                x -= rect.left;
+                y -= rect.top;   
+            }
+
+            this.mouseVector.x = 2 * (x / this.width) - 1;
+            this.mouseVector.y = 1 - 2 * (y / this.height);
+
+
         }
 
         // checks the win condition

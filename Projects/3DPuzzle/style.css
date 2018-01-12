@@ -1,3 +1,5 @@
-canvas {
+canvas, .mycenter{
     margin: auto;
+    text-align: center;
+    display: block;
 }
