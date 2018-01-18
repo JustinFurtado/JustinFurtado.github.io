@@ -3,17 +3,11 @@ p Here you can see some of the projects I've worked on.
 div
     p Web Projects
     ul 
-        li 
-            a(href="Projects/3DPuzzle/index.html") Unnamed Web Puzzle Game
+        != partial("_partials/projectcard", {relativePath: "Projects/3DPuzzle/index.html", projectName: "Unnamed Web Game"})
     p Unity Projects
     ul
-        li
-            a(href="Projects/CapstoneDemo/index.html") Capstone DEMO
-        li
-            a(href="Projects/FractalVisualizer/index.html") Fractal Visualizer
-        li
-            a(href="Projects/Gemetary/index.html") Gemetary
-        li
-            a(href="Projects/GeometryShooter/index.html") Geometry Shooter
-        li
-            a(href="Projects/TwoPlayerGame/index.html") TWO PLAYER GAME CREDIT SENT FOR 0.5F
+        != partial("_partials/projectcard", {relativePath: "Projects/CapstoneDemo/index.html", projectName: "Capstone Demo"})
+        != partial("_partials/projectcard", {relativePath: "Projects/GearGolf/index.html", projectName: "Gear Golf"})
+        != partial("_partials/projectcard", {relativePath: "Projects/Gemetary/index.html", projectName: "Gemetary"})
+        != partial("_partials/projectcard", {relativePath: "Projects/GeometryShooter/index.html", projectName: "Geometry Shooter"})
+        != partial("_partials/projectcard", {relativePath: "Projects/TwoPlayerGame/index.html", projectName: "Sumo Game (Group Project, CREDIT SEN)"})
