@@ -1,13 +1,18 @@
 h1 My Projects
 p Here you can see some of the projects I've worked on.
 div
-    p Web Projects
-    ul 
-        != partial("_partials/projectcard", {relativePath: "Projects/3DPuzzle/index.html", projectName: "Unnamed Web Game"})
     p Unity Projects
-    ul
-        != partial("_partials/projectcard", {relativePath: "Projects/CapstoneDemo/index.html", projectName: "Capstone Demo"})
-        != partial("_partials/projectcard", {relativePath: "Projects/GearGolf/index.html", projectName: "Gear Golf"})
-        != partial("_partials/projectcard", {relativePath: "Projects/Gemetary/index.html", projectName: "Gemetary"})
-        != partial("_partials/projectcard", {relativePath: "Projects/GeometryShooter/index.html", projectName: "Geometry Shooter"})
-        != partial("_partials/projectcard", {relativePath: "Projects/TwoPlayerGame/index.html", projectName: "Sumo Game (Group Project, CREDIT SEN)"})
+    div.container
+        div.row
+            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x500", pagePath: "Projects/CapstoneDemo/index.html", projectName: "Capstone Demo"})
+            != partial("_partials/projectcard", {imagePath: "images/Gemetary1.png", pagePath: "Projects/Gemetary/index.html", projectName: "Gemetary"})
+
+        div.row
+            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x500", pagePath: "Projects/GearGolf/index.html", projectName: "Gear Golf"})
+            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x500", pagePath: "Projects/GeometryShooter/index.html", projectName: "Geometry Shooter"})
+            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x500", pagePath: "Projects/TwoPlayerGame/index.html", projectName: "Sumo Game"})
+
+    p Web Projects
+    div.container
+        div.row
+            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x500", pagePath: "Projects/3DPuzzle/index.html", projectName: "Unnamed Web Game"})
