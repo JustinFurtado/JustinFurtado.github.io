@@ -1,4 +1,6 @@
 div.col.text-center
-    a.inline_block(href="#{pagePath}")
-        p #{projectName}
-        img.img-fluid(src="#{imagePath}")
+    a.inline_block(href="#{pagePath}") #{projectName} 
+    br
+    img.img-fluid(src="#{imagePath}")
+    br
+    p.text-justify #{description}
