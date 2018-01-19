@@ -1,0 +1,25 @@
+div(class="carousel slide", data-ride="carousel", id="gamelibraries", data-interval="2500", data-pause="hover")
+    ol.carousel-indicators
+        li(data-target="#gamelibraries" data-slide-to="0" class="active")
+        - for (var i = 1; i < images.count; i++){
+        li(data-target="#gamelibraries" data-slide-to="#{i}")
+        - }
+    div.carousel-inner(role="listbox")
+        div.carousel-item.active
+            img.d-block.w-100(src="#{images.paths[0]}")
+            div.carousel-caption.d-none.d-md-block
+                h5 #{images.titles[0]}
+                p #{images.descriptions[0]}
+        - for (var i = 1; i < images.count; i++){
+        div.carousel-item
+            img.d-block.w-100(src="#{images.paths[i]}")
+            div.carousel-caption.d-none.d-md-block
+                h5 #{images.titles[i]}
+                p #{images.descriptions[i]}
+        - }
+    a.carousel-control-prev(href="#gamelibraries" role="button" data-slide="prev")
+        span.carousel-control-prev-icon(aria-hidden="true")
+        span.sr-only Previous
+    a.carousel-control-next(href="#gamelibraries" role="button" data-slide="next")
+        span.carousel-control-next-icon(aria-hidden="false")
+        span.sr-only Next
