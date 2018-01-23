@@ -1,33 +1,37 @@
 h1.text-center My Projects
 p.text-center Here you can see some of the projects I've worked on.
 div
-    h2.text-center Unity Projects
-    div.container
-        div.row
-            != partial("_partials/projectcard", {imagePath: "images/Gemetary1_Cropped.png", pagePath: "Projects/Gemetary/index.html", projectName: "Gemetary", description: "Procedural 3D Maze Game..."})
-        
-        div.row
-            != partial("_partials/projectcard", {imagePath: "images/CapstoneDemoForest.png", pagePath: "Projects/CapstoneDemo/index.html", projectName: "Capstone Demo", description: "3D Mesh Generation Tool..."})
+    div.m-5
+        h2.text-center Unity Projects
+        div.container
+            div.row
+                != partial("_partials/projectcard", {imagePath: "images/Gemetary1_Cropped.png", pagePath: "Projects/Gemetary/index.html", projectName: "Gemetary", description: "Procedural 3D Maze Game..."})
             
-        div.row
-            != partial("_partials/projectcard", {imagePath: "images/GearGolf.png", pagePath: "Projects/GearGolf/index.html", projectName: "Gear Golf", description: "Physics Puzzle Game..."})
-            != partial("_partials/projectcard", {imagePath: "images/GeometryShooter.png", pagePath: "Projects/GeometryShooter/index.html", projectName: "Geometry Shooter", description: "Knock over blocks with a cannon..."})
-            
-        div.row    
-            != partial("_partials/projectcard", {imagePath: "images/SumoGame.png", pagePath: "Projects/TwoPlayerGame/index.html", projectName: "Sumo Game", description: "Push your friend off the edge..."})
-            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
-            
-    h2.text-center Engine Projects
-    div.container
-        div.row
-            != partial("_partials/projectcard", {imagePath: "images/Engine/GameLibraries/DestructibleTerrain.png", pagePath: "Projects/Engine/gamelibraries.html", projectName: "Game Libraries Engine (Q4)", description: "Slideshow of screenshots from the initial version of my game engine! Was expanded upon during later courses."})
-            != partial("_partials/projectcard", {imagePath: "images/Engine/ComputerGraphics/Final.png", pagePath: "Projects/Engine/computergraphics.html", projectName: "Computer Graphics Engine (Q6)", description: "Slideshow of screenshots from the second version of my game engine! This demo reel will show many different GLSL shaders written for and used in my game engine. Was expanded upon during later courses."})
-        div.row
-            != partial("_partials/projectcard", {imagePath: "../../images/Engine/AI/DargonCeption.png", pagePath: "Projects/Engine/ai.html", projectName: "AI Engine (Q7)", description: "Slideshow of screenshots from the third version of my game engine. This demo reel will show different engine enhancements and pictures of NPCs using implemented AI techniques. The engine was further expanded upon during later courses."})
-            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
+            div.row
+                != partial("_partials/projectcard", {imagePath: "images/CapstoneDemoForest.png", pagePath: "Projects/CapstoneDemo/index.html", projectName: "Capstone Demo", description: "3D Mesh Generation Tool..."})
+                
+            div.row
+                != partial("_partials/projectcard", {imagePath: "images/GearGolf.png", pagePath: "Projects/GearGolf/index.html", projectName: "Gear Golf", description: "Physics Puzzle Game..."})
+                != partial("_partials/projectcard", {imagePath: "images/GeometryShooter.png", pagePath: "Projects/GeometryShooter/index.html", projectName: "Geometry Shooter", description: "Knock over blocks with a cannon..."})
+                
+            div.row    
+                != partial("_partials/projectcard", {imagePath: "images/SumoGame.png", pagePath: "Projects/TwoPlayerGame/index.html", projectName: "Sumo Game", description: "Push your friend off the edge..."})
+                != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
 
-    h2.text-center Web Projects
-    div.container
-        div.row
-            != partial("_partials/projectcard", {imagePath: "images/puzzle.png", pagePath: "Projects/3DPuzzle/index.html", projectName: "Unnamed Web Game", description: "Click to solve the puzzle..."})
-            != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
+    div.m-5
+        h2.text-center Engine Projects
+        div.container
+            div.row
+                != partial("_partials/projectcard", {imagePath: "images/Engine/GameLibraries/DestructibleTerrain.png", pagePath: "Projects/Engine/gamelibraries.html", projectName: "Game Libraries Engine (Q4)", description: "Slideshow of screenshots from the initial version of my game engine! Was expanded upon during later courses."})
+                != partial("_partials/projectcard", {imagePath: "images/Engine/ComputerGraphics/Final.png", pagePath: "Projects/Engine/computergraphics.html", projectName: "Computer Graphics Engine (Q6)", description: "Slideshow of screenshots from the second version of my game engine! This demo reel will show many different GLSL shaders written for and used in my game engine. Was expanded upon during later courses."})
+            div.row
+                != partial("_partials/projectcard", {imagePath: "../../images/Engine/AI/DargonCeption.png", pagePath: "Projects/Engine/ai.html", projectName: "AI Engine (Q7)", description: "Slideshow of screenshots from the third version of my game engine. This demo reel will show different engine enhancements and pictures of NPCs using implemented AI techniques. The engine was further expanded upon during later courses."})
+                != partial("_partials/projectcard", {imagePath: "../../images/Engine/Physics/SpinnyStuff.png", pagePath: "Projects/Engine/physics.html", projectName: "Physics Engine (Q8)", description: "Slideshow of screenshots from the fourth version of my game engine. This demo reel will show different engine enhancements and pictures of Spheres using physics techniques such as mass and force, conservation of momentum, resting contact, etc."})
+
+    div.m-5
+        h2.text-center Other Projects
+        div.container
+            div.row
+                != partial("_partials/projectcard", {imagePath: "images/puzzle.png", pagePath: "Projects/3DPuzzle/index.html", projectName: "Unnamed Web Game", description: "Click to solve the puzzle..."})
+                != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
+                != partial("_partials/projectcard", {imagePath: "http://via.placeholder.com/500x350", pagePath: "projects.html", projectName: "Placeholder", description: "I'll put something here later"})
