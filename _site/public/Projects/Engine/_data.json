@@ -197,18 +197,18 @@
                       "../../images/Engine/Physics/RestingContact.png",
                       "../../images/Engine/Physics/Spring.png",
                       "../../images/Engine/Physics/SpinnyStuff.png"],
-            "titles": ["A",
-                       "B", 
-                       "C", 
-                       "D", 
-                       "E",
-                       "F"],
-            "descriptions": ["a",
-                             "b",
-                             "c",
-                             "d",
-                             "e",
-                             "f"]
+            "titles": ["Lab 1: Many Colliding Spheres",
+                       "Lab 2: Conservation of Momentum", 
+                       "Lab 3: Drag", 
+                       "Lab 4: Resting Contact", 
+                       "Lab 5: Spings",
+                       "Lab 6: Angular Velocity"],
+            "descriptions": ["Here I implement simply sphere-sphere collision and collision resolution in my engine. Here you see (some of) hundreds of spheres that exist in the scene and collide with eachother efficiently.",
+                             "Here I implement conservation of momentum in the engine, and have a demo of objects whose masses can be changed, and will speed up or slow down accordingly, to preserve their momentum.",
+                             "Here I implement simple drag forces in my engine, causing objects to slow down depending on the specified drag coefficients.",
+                             "Here I get spheres stacking successfully by implementing resting contact in my game engine. Spheres can be knocked over by launching another sphere at them and they will bounce.",
+                             "Here I get a working spring force, where one sphere is attached to another via an invisible spring. Closer than the specified distance and the second sphere is pushed away, further and it is pulled closer. Spring constants and resting lengths can be modified at runtime.",
+                             "Here we work with angular velocity, and allow an object to be detached from it's parent object that it rotates with, but allow it to preserve it's angular momentum while doing so."]
         }
     }
 }
