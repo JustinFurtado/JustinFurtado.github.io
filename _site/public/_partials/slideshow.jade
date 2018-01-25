@@ -7,13 +7,13 @@ div(class="carousel slide", data-ride="carousel", id="gamelibraries", data-inter
     div.carousel-inner(role="listbox")
         div.carousel-item.active
             img.d-block.w-100(src="#{images.paths[0]}")
-            div.carousel-caption.d-none.d-md-block(style="background-color: #AAAAAAAA;")
+            div.carousel-caption.d-none.d-md-block(style="background-color: #44444499;")
                 h5 #{images.titles[0]}
                 p #{images.descriptions[0]}
         - for (var i = 1; i < images.count; i++){
         div.carousel-item
             img.d-block.w-100(src="#{images.paths[i]}")
-            div.carousel-caption.d-none.d-md-block(style="background-color: #AAAAAAAA;")
+            div.carousel-caption.d-none.d-md-block(style="background-color: #44444499;")
                 h5 #{images.titles[i]}
                 p #{images.descriptions[i]}
         - }
