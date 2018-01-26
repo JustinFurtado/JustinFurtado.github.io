@@ -47,6 +47,7 @@ h3{
   -ms-transition: all .3s ease; /* Opera */
   transition: all .3s ease;
   position:relative;
+  box-shadow: 8px 8px 2px 1px #CCC;
 }
 
 .img-hover:hover {
@@ -57,22 +58,7 @@ h3{
   -ms-transform:scale(1.1); /* IE 9 */
   -o-transform:translateZ(0) scale(1.1); /* Opera */
   transform:translateZ(0) scale(1.1);
-}
-
-.img-hover:hover:after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:2;
-  width:30px;
-  height:30px;
-}
-
-.grayscale {
-  -webkit-filter: brightness(1.10) grayscale(100%) contrast(90%);
-  -moz-filter: brightness(1.10) grayscale(100%) contrast(90%);
-  filter: brightness(1.10) grayscale(100%); 
+  box-shadow: 16px 16px 2px 1px #CCC;
 }
 
 a.nostyle:link {
@@ -88,4 +74,5 @@ a.nostyle:visited {
 .project-group {
   background-color: #ffffaa;
   border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px #CCC;
 }
