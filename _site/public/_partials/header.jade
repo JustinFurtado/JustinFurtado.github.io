@@ -1,11 +1,11 @@
 div.opaqueify
     ul.nav.nav-tabs
         li.nav-item
-            a.nav-link(class="#{current.source == 'index' ? 'active' : ''}", href="#{baseUrl}/index.html") Home
+            a.nav-link(class="#{activeTab == 'index' ? 'active' : ''}", href="#{baseUrl}/index.html") Home
         li.nav-item
-            a.nav-link(class="#{current.source == 'about' ? 'active' : ''}", href="#{baseUrl}/about.html") About Me
+            a.nav-link(class="#{activeTab == 'about' ? 'active' : ''}", href="#{baseUrl}/about.html") About Me
         li.nav-item
-            a.nav-link(class="#{current.source == 'projects' ? 'active' : ''}", href="#{baseUrl}/projects.html") My Projects
+            a.nav-link(class="#{activeTab == 'projects' ? 'active' : ''}", href="#{baseUrl}/projects.html") My Projects
         li.nav-item
-            a.nav-link(class="#{current.source == 'contact' ? 'active' : ''}", href="#{baseUrl}/contact.html") Contact Me
+            a.nav-link(class="#{activeTab == 'contact' ? 'active' : ''}", href="#{baseUrl}/contact.html") Contact Me
 

@@ -1,0 +1,8 @@
+div.p-1.webgl-content
+    h1 #{gameData.title}
+    div(id="gameContainer" style="width: 960px; height: 600px")
+    div.footer
+        div.webgl-logo
+        div.fullscreen(onclick="gameInstance.SetFullscreen(1)")
+        div.title #{gameData.title}
+    p #{gameData.description}
