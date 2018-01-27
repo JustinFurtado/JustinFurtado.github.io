@@ -1,19 +1,23 @@
 {
     "index":{
-        "imageData" : {
-            "count": 4, 
-            "paths": ["../../images/CPlusPlusTwo/Turret.png",
-                      "../../images/CPlusPlusTwo/BouncingBullets.png",
-                      "../../images/CPlusPlusTwo/ParticlesOne.png",
-                      "../../images/CPlusPlusTwo/ParticlesTwo.png"],
-            "titles": ["Lab 1: Turret",
-                       "Lab 2: Bouncing Bullets", 
-                       "Lab 3: Particles One", 
-                       "Lab 3: Particles Two"],
-            "descriptions": ["Here we get a turret that points at the mouse, a simple ship, collision with the enviromnent, etc, setup.",
-                             "Here we allow the player to fire, pooling bullets for reuse as more are fired, and have the bullets bouncing around the world.",
-                             "Here we implement particles. I create a purple void particle, followed by an explosion particle for the bullets. Bullets are updated to be destroyed on collision.",
-                             "For fun, I scale the explosion particles and make a mini-sun."]
+        "pageData": {
+            "title": "C++ 2",
+            "description": "DESCRIPTION GOES HERE",
+            "imageData" : {
+                "count": 4, 
+                "paths": ["../../images/CPlusPlusTwo/Turret.png",
+                        "../../images/CPlusPlusTwo/BouncingBullets.png",
+                        "../../images/CPlusPlusTwo/ParticlesOne.png",
+                        "../../images/CPlusPlusTwo/ParticlesTwo.png"],
+                "titles": ["Lab 1: Turret",
+                        "Lab 2: Bouncing Bullets", 
+                        "Lab 3: Particles One", 
+                        "Lab 3: Particles Two"],
+                "descriptions": ["Here we get a turret that points at the mouse, a simple ship, collision with the enviromnent, etc, setup.",
+                                "Here we allow the player to fire, pooling bullets for reuse as more are fired, and have the bullets bouncing around the world.",
+                                "Here we implement particles. I create a purple void particle, followed by an explosion particle for the bullets. Bullets are updated to be destroyed on collision.",
+                                "For fun, I scale the explosion particles and make a mini-sun."]
+            }
         }
     }
 }
