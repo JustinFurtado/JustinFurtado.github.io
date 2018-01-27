@@ -2,7 +2,9 @@
     "index": {
         "game": {
             "title": "Blocks",
-            "description": "DESCRIPTION GOES HERE!"
+            "numParagraphs": 2,
+            "descriptions": ["DESCRIPTION P1 GOES HERE",
+                             "DESCRIPTION P2 GOES HERE"]
         }
     }
 }

@@ -2,7 +2,9 @@
     "gamelibraries":{
         "pageData": {
             "title": "Game Libraries",
-            "description": "DESCRIPTION GOES HERE",
+            "numParagraphs": 2,
+            "descriptions": ["DESCRIPTION P1 GOES HERE",
+                             "DESCRIPTION P2 GOES HERE"],
             "imageData" : {
                 "count": 14, 
                 "paths": ["../../images/Engine/GameLibraries/TwoTriangles.png",
@@ -53,7 +55,9 @@
     "computergraphics":{
         "pageData": {
             "title": "Computer Graphics",
-            "description": "DESCRIPTION GOES HERE",
+            "numParagraphs": 2,
+            "descriptions": ["DESCRIPTION P1 GOES HERE",
+                             "DESCRIPTION P2 GOES HERE"],
             "imageData" : {
                 "count": 22, 
                 "paths": ["../../images/Engine/ComputerGraphics/TeapotsLabOne.png",
@@ -128,7 +132,9 @@
     "ai":{
         "pageData": {
             "title": "AI",
-            "description": "DESCRIPTION GOES HERE",
+            "numParagraphs": 2,
+            "descriptions": ["DESCRIPTION P1 GOES HERE",
+                             "DESCRIPTION P2 GOES HERE"],
             "imageData" : {
                 "count": 22, 
                 "paths": ["../../images/Engine/AI/BetterPartition.png",
@@ -203,7 +209,9 @@
     "physics":{
         "pageData": {
             "title": "Physics",
-            "description": "DESCRIPTION GOES HERE",
+            "numParagraphs": 2,
+            "descriptions": ["DESCRIPTION P1 GOES HERE",
+                             "DESCRIPTION P2 GOES HERE"],
             "imageData" : {
                 "count": 6, 
                 "paths": ["../../images/Engine/Physics/ManySpheres.png",
