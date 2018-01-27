@@ -1,0 +1,14 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href='#{baseUrl}/css/Bootstrap/css/bootstrap.min.css')
+    link(rel="stylesheet" href='#{baseUrl}/css/main.css')
+    link(rel="stylesheet" href="./style.css")
+  body.bg
+    div.container
+      div.jumbotron
+        != partial("../../_partials/header", {activeTab: "projects"})
+        != yield
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+        script(src="#{baseUrl}/css/Bootstrap/js/bootstrap.min.js")
+

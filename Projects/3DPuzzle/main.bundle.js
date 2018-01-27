@@ -171,8 +171,8 @@ function onScroll(e) {
 
 (function () {
     // capture width and height
-    var width = window.innerWidth / 2;
-    var height = window.innerHeight / 2;
+    var width = 800;
+    var height = 600;
 
     // create renderer, size to window
     renderer = new THREE.WebGLRenderer({ antialias: true });

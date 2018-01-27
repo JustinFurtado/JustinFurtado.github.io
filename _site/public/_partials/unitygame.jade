@@ -1,8 +1,9 @@
-div.p-1.webgl-content.mx-auto
-    h1 #{gameData.title}
-    div.mx-auto(id="gameContainer" style="width: 960px; height: 600px")
-    div.footer
-        div.webgl-logo
-        div.fullscreen(onclick="gameInstance.SetFullscreen(1)")
-        div.title #{gameData.title}
-    p #{gameData.description}
+div.project-group.p-3.m-5
+    div.p-1.webgl-content.mx-auto
+        h1.text-center.m-4.p-3.font-weight-bold #{gameData.title}
+        div.mx-auto(id="gameContainer" style="width: 800px; height: 600px")
+        div.footer
+            div.webgl-logo
+            div.fullscreen(onclick="gameInstance.SetFullscreen(1)")
+            div.title #{gameData.title}
+        p.m-3 #{gameData.description}
