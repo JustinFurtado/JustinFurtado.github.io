@@ -1,25 +1,25 @@
-div(class="carousel slide", data-ride="carousel", id="gamelibraries", data-interval="2500", data-pause="hover")
+div(class="carousel slide", data-ride="carousel", id="slideshow", data-interval="2500", data-pause="hover", style="height: 500px; background-color: #000000")
     ol.carousel-indicators
-        li(data-target="#gamelibraries" data-slide-to="0" class="active")
+        li(data-target="#slideshow" data-slide-to="0" class="active")
         - for (var i = 1; i < images.count; i++){
-        li(data-target="#gamelibraries" data-slide-to="#{i}")
+        li(data-target="#slideshow" data-slide-to="#{i}")
         - }
     div.carousel-inner(role="listbox")
         div.carousel-item.active
-            img.d-block.w-100(src="#{images.paths[0]}")
+            img.img-fluid.d-block.w-100(src="#{images.paths[0]}", style="height: 500px")
             div.carousel-caption.d-none.d-md-block(style="background-color: #44444499;")
                 h5 #{images.titles[0]}
                 p #{images.descriptions[0]}
         - for (var i = 1; i < images.count; i++){
         div.carousel-item
-            img.d-block.w-100(src="#{images.paths[i]}")
+            img.img-fluid.d-block.w-100(src="#{images.paths[i]}", style="height: 500px")
             div.carousel-caption.d-none.d-md-block(style="background-color: #44444499;")
                 h5 #{images.titles[i]}
                 p #{images.descriptions[i]}
         - }
-    a.carousel-control-prev(href="#gamelibraries" role="button" data-slide="prev")
+    a.carousel-control-prev(href="#slideshow" role="button" data-slide="prev")
         span.carousel-control-prev-icon(aria-hidden="true")
         span.sr-only Previous
-    a.carousel-control-next(href="#gamelibraries" role="button" data-slide="next")
+    a.carousel-control-next(href="#slideshow" role="button" data-slide="next")
         span.carousel-control-next-icon(aria-hidden="false")
         span.sr-only Next
