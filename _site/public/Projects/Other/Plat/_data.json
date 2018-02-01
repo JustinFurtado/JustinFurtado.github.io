@@ -1,0 +1,36 @@
+{
+    "index":{
+        "pageData": {
+            "title": "Plat",
+            "numParagraphs": 4,
+            "descriptions": ["Plat is a simple 2D Platforming game made by me for a short duration assignment for the Topics in Game Development course at Neumont College of Computer Science.",
+                             "Controls are simple: use arrow keys or WASD to move. Space/Up/W to jump, S/Down to interact with a lever. Keys will be used instantly upon touching a key-hole-block. Keep this in mind. Enemies can be defeated by landing on them (watch out for spiked enemies). There is a double jump and wall jump mechanic. Get to the flag to complete the level. Bonus points for landing on enemies in succession without touching the ground between bounces.",
+                             "Art assets were supplied by the instructor, so I presume we are allowed to use them. I am under the impression he purchased them from somewhere or found them for free, but am unaware of the actual origins of the assets.",
+                             "Sorry it's not playable in-browser."],
+            "imageData" : {
+                "count": 7, 
+                "paths": ["../../../images/Plat/OneStart.png",
+                          "../../../images/Plat/OneEnd.png",
+                          "../../../images/Plat/TwoStart.png",
+                          "../../../images/Plat/TwoEnd.png",
+                          "../../../images/Plat/ThreeStart.png",
+                          "../../../images/Plat/ThreeEnd.png",
+                          "../../../images/Plat/Victory.png"],
+                "titles": ["Level 1: The Start",
+                           "Level 1: The End", 
+                           "Level 2: The Start", 
+                           "Level 2: The End",
+                           "Level 3: The Start",
+                           "Level 3: The End",
+                           "Victory Screen"],
+                "descriptions": ["The beginning state of the first level. Looks like we need to grab some keys to get to the flag.",
+                                 "The end state of the first level. Wow, that was some fun enemy bouncing!",
+                                 "The beginning state of the second level. Looks more complicated. Seems we'll have to carefully time our lever flips to avoid enemies falling on us and get the key.",
+                                 "The end state of the second level. Wow, that was much harder!",
+                                 "The beginning state of the third level. Oh my goodness. The developer is so mean! This looks too hard!",
+                                 "The end state of the third level. I died so many times, but it was worth it! Hard fun for the win! What a puzzle!",
+                                 "The victory screen. You can jump on the letters for fun. Congrats, you win!"]
+            }
+        }
+    }
+}
