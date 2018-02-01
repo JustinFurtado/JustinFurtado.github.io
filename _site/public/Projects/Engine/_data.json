@@ -2,11 +2,9 @@
     "gamelibraries":{
         "pageData": {
             "title": "Game Libraries (Q4)",
-            "numParagraphs": 4,
-            "descriptions": ["Ah, Game Libraries. I remember it like it was 4th quarter... oh wait... it was 4th quarter.",
-                             "This was the course for which game development students were first required to make their own game 3D game engines. It was a difficult course that covered a lot of ground. My engine literally went from drawing two triangles to implementing raycasting and spatial partitioning in a 3D world with lighting.",
-                             "My game engine was written in C++, using OpenGL. We were encouraged to do as much as we could from the ground up. That means our own memory management, writing our own GLSL shaders to do phong lighting instead of using what was built in, and much, much more.",
-                             "..."],
+            "numParagraphs": 2,
+            "descriptions": ["This was the course for which game development students were first required to make their own game 3D game engines. It was a difficult course that covered a lot of ground. My engine literally went from drawing two triangles to implementing raycasting and spatial partitioning in a 3D world with lighting.",
+                             "My game engine was written in C++, using OpenGL. We were encouraged to do as much as we could from the ground up. That means our own memory management, writing our own GLSL shaders to do phong lighting instead of using what was built in, and much, much more."],
             "imageData" : {
                 "count": 14, 
                 "paths": ["../../images/Engine/GameLibraries/TwoTriangles.png",
@@ -57,11 +55,10 @@
     "computergraphics":{
         "pageData": {
             "title": "Computer Graphics (Q6)",
-            "numParagraphs": 4,
+            "numParagraphs": 3,
             "descriptions": ["Computer Graphics was another game-engine based course I took at Neumont. Here I have put together a slide show of screenshots from various shaders and assignments I wrote during the course.",
-                             "Shaders were written in GLSL, and loading using the game engine I created for the Game Libraries course. This was a very intense course, stretching my shader writing skills to new levels every week.",
-                             "The most difficult assignment written for the course was the Volumetric Shadows assignment. In fact, I was the only student in that particular section to get the shader rendering properly. It was a 3-pass shader involving altering several OpenGL state changes we had never worked with before or had explained to us. Through thorough research and an intense coding session, I was able to overcome this, though it is quite inefficient.",
-                             "..."],
+                             "Shaders were written in GLSL, and loaded using the game engine I created for the Game Libraries course. This was a very intense course, stretching my shader writing skills to new levels every week.",
+                             "The most difficult assignment written for the course was the Volumetric Shadows assignment. In fact, I was the only student in that particular section to get the shader rendering properly. It was a 3-pass shader involving altering several OpenGL state changes we had never worked with before or had explained to us. Through thorough research and an intense coding session, I was able to overcome this, though it is quite inefficient."],
             "imageData" : {
                 "count": 22, 
                 "paths": ["../../images/Engine/ComputerGraphics/TeapotsLabOne.png",
@@ -136,12 +133,11 @@
     "ai":{
         "pageData": {
             "title": "AI (Q7)",
-            "numParagraphs": 4,
+            "numParagraphs": 3,
             "descriptions": ["The AI course was yet another course that made use of the game engine created in previous courses. This course came after the Computer Graphics course, so I was able to maintain some of the optimizations and utility features created in that course.",
                              "For the AI course, we began by better preparing our engines to handle game AI. First, we were required to add spatial partitioning. I had already done this going above and beyond for another course, so the instructor insisted I upgrade my partitioning scheme. I did this and it did improve the performance of my engine significantly. After this, we wrote a world editor, which I went above and beyond on, finding it fun to create powerful a game development tool for my engine.",
                              "Only after engine enhancements did we get to implementing AI techniques. We were given the freedom to implement several, of which I chose ones I thought were the most interesting. In particular, I am a fan of the Offset Pursuit technique that I used to make a dragon out of dragons, Flocking, which looks great with dragons, and Forage, which is also fun to look at as the dragons will consume the world I created.",
-                             "Also, I again went above and beyond, taking the power of 'instanced rendering' and using it to create galaxies of spheres using a fractal shader I wrote earlier. It enables me to draw thousands of objects with a single OpenGL draw call, increasing efficienty vastly and allowing me to draw more objects.",
-                             "..."],
+                             "Also, I again went above and beyond, taking the power of 'instanced rendering' and using it to create galaxies of spheres using a fractal shader I wrote earlier. It enables me to draw thousands of objects with a single OpenGL draw call, increasing efficienty vastly and allowing me to draw more objects."],
             "imageData" : {
                 "count": 22, 
                 "paths": ["../../images/Engine/AI/BetterPartition.png",
@@ -216,10 +212,9 @@
     "physics":{
         "pageData": {
             "title": "Physics (Q8)",
-            "numParagraphs": 3,
-            "descriptions": ["In our final game engine course, we were told to implement physics in our engines. With the engine enhancements from the AI course, my engine was ready to tackle this task",
-                             "Due to short time-constraint and tough schedule, we were not required to implement a full physics engine, simply to handle sphere physics in a few particular fun cases including bouncing, resting contact, angular momentum, drag and springs.",
-                             "..."],
+            "numParagraphs": 2,
+            "descriptions": ["In our final game engine course, we were told to implement physics in our engines. With the engine enhancements from the AI course, my engine was ready to tackle this task.",
+                             "Due to short time-constraint and tough schedule, we were not required to implement a full physics engine, simply to handle sphere physics in a few particular fun cases including bouncing, resting contact, angular momentum, drag and springs."],
             "imageData" : {
                 "count": 6, 
                 "paths": ["../../images/Engine/Physics/ManySpheres.png",
