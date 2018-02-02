@@ -29,8 +29,9 @@
         },
         "chsSlides": {
             "title": "Concord High Awards/Honors",
-            "numParagraphs": 1,
-            "descriptions": ["High school awards."],
+            "numParagraphs": 2,
+            "descriptions": ["Here you see a slideshow of various honors and awards I earned while attending Concord High School (Graduating Class: 2015)",
+                             "I earned lots of awards during my high school career. I had perfect attendance 3/4 years, which speaks to my dedication to education. I earned 9 class-specific awards including 4 math class awards, 1 computer class award, 1 physics class award, 1 history class award and 2 spanish class awards. I earned several other awards too including AP Scholar with Honor for my advanced placement test scores, as well as multiple for maintaining a 4.0+ GPA throughout all of high school. Finally I received special recognition for my performance in a computer applications course, being nominated for an award by my teacher and getting to give a speech about the course and how I found it valuable."],
             "imageData": {
                 "slideName": "slideshow2",
                 "count": 5,
