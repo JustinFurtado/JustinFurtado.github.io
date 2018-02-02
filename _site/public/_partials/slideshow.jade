@@ -7,14 +7,14 @@ div(class="carousel slide", data-ride="carousel", id="#{images.slideName}", data
     div.carousel-inner(role="listbox")
         div.carousel-item.active
             img.img-fluid.d-block.w-100(src="#{images.paths[0]}", style="height: 700px")
-            div.carousel-caption(style="background-color: #44444499;")
-                h5 #{images.titles[0]}
+            div.carousel-caption.p-4(style="background-color: #44444499;")
+                h5.font-weight-bold #{images.titles[0]}
                 p #{images.descriptions[0]}
         - for (var i = 1; i < images.count; i++){
         div.carousel-item
             img.img-fluid.d-block.w-100(src="#{images.paths[i]}", style="height: 700px")
-            div.carousel-caption(style="background-color: #44444499;")
-                h5 #{images.titles[i]}
+            div.carousel-caption.p-4(style="background-color: #44444499;")
+                h5.font-weight-bold #{images.titles[i]}
                 p #{images.descriptions[i]}
         - }
     a.carousel-control-prev(href="##{images.slideName}" role="button" data-slide="prev")
