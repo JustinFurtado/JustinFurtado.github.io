@@ -1,8 +1,8 @@
-div(class="carousel slide", data-ride="carousel", id="slideshow", data-interval="2500", data-pause="hover", style="height: 700px; background-color: #000000")
+div(class="carousel slide", data-ride="carousel", id="#{images.slideName}", data-interval="2500", data-pause="hover", style="height: 700px; background-color: #000000")
     ol.carousel-indicators
-        li(data-target="#slideshow" data-slide-to="0" class="active")
+        li(data-target="##{images.slideName}" data-slide-to="0" class="active")
         - for (var i = 1; i < images.count; i++){
-        li(data-target="#slideshow" data-slide-to="#{i}")
+        li(data-target="##{images.slideName}" data-slide-to="#{i}")
         - }
     div.carousel-inner(role="listbox")
         div.carousel-item.active
@@ -17,9 +17,9 @@ div(class="carousel slide", data-ride="carousel", id="slideshow", data-interval=
                 h5 #{images.titles[i]}
                 p #{images.descriptions[i]}
         - }
-    a.carousel-control-prev(href="#slideshow" role="button" data-slide="prev")
+    a.carousel-control-prev(href="##{images.slideName}" role="button" data-slide="prev")
         span.carousel-control-prev-icon(aria-hidden="true")
         span.sr-only Previous
-    a.carousel-control-next(href="#slideshow" role="button" data-slide="next")
+    a.carousel-control-next(href="##{images.slideName}" role="button" data-slide="next")
         span.carousel-control-next-icon(aria-hidden="false")
         span.sr-only Next

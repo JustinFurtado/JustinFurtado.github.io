@@ -8,6 +8,7 @@
                              "Art assets were supplied by the instructor, so I presume we are allowed to use them. I am under the impression he purchased them from somewhere or found them for free, but am unaware of the actual origins of the assets.",
                              "Sorry it's not playable in-browser."],
             "imageData" : {
+                "slideName": "name",
                 "count": 7, 
                 "paths": ["../../../images/Plat/OneStart.png",
                           "../../../images/Plat/OneEnd.png",

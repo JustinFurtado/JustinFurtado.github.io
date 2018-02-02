@@ -11,6 +11,7 @@
                              "Most of the art assets are placeholder. We planned to replace them all. I believe our placeholder assets originated from OpenGameArt.org. We do not claim them as our own. They would not have been shipped with the game if we had finished it. The sound assets (cannot be seen) were actually made by a member of the team with some serious musical talent. Go him.",
                              "We implemented many features that can't be shown effectively here, such as procedural battle map generation, a full-fledged map editor, more weather particle effects, multiple difficulties, a credits screen and much more."],
             "imageData" : {
+                "slideName": "name",
                 "count": 7, 
                 "paths": ["../../../images/DaBlenda/Title.png",
                           "../../../images/DaBlenda/StartGame.png",

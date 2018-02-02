@@ -1,0 +1,55 @@
+{
+    "about": {
+        "neumontSlides": {
+            "title": "Neumont Awards/Honors",
+            "numParagraphs": 4,
+            "descriptions": ["Here you see a slideshow of various honors and awards I earned while attending Neumont.",
+                             "One of them is that I won a project showcase award for Gemetary, my infinite 3D maze game. Project showcase is a Neumont event where students present things they've worked on and audience members (students, visitors, etc.) and faculty vote on their favorite projects. Gemetary won when I entered it.",
+                             "Another is my half-diploma. I include this not because its amazingly impressive or anything, but simply to show that I am already over halfway through my degree in software and game development. I was proud to receive this. I will get my full degree in August 2018.",
+                             "Finally, perhaps the biggest honor so far is being invited to present at the Neumont Capstone Invitational ceremony. This is an event exclusive to the few top students whose capstone projects shine above the rest. Due to the technical depth and potential usefulness of my capstone, I was invited to present my project live in front of a large audience at the library."],
+            "imageData": {
+                "slideName": "slideshow1",
+                "count": 5, 
+                "paths": ["./images/MainPage/Accomplishments/Neumont/invitational_award_small.jpg",
+                            "./images/MainPage/Accomplishments/Neumont/showcase_winner_small.jpg",
+                            "./images/MainPage/Accomplishments/Neumont/half_degree_small.jpg",
+                            "./images/MainPage/Accomplishments/Neumont/invitational_live_small.jpg",
+                            "./images/MainPage/Accomplishments/Neumont/invitational_live_two_small.jpg"],
+                "titles": ["Capstone Invitational Award",
+                            "Project Showcase Overall Audience Favorite",
+                            "My Half-Diploma",
+                            "Capstone Invitational Presentation",
+                            "Capstone Invitational Presentation (2)"],
+                "descriptions": ["I was invited to the capstone invitational to present my capstone project, an honor given to only some of the best capstone students at Neumont each year.",
+                                    "Gemetary wins a Neumont project showcase competition across all categories.",
+                                    "This simply shows that I am in college, that I am over halfway done, that I am in the game degree. I will be all the way done in August 2018 and have my full degree! Neumont gives these out to allow students to celebrate being 'half way there!'",
+                                    "The Neumont Capstone Invitational is a cool honor, because you actually get to give a live demo of your project and speech about it to a large audience at the local library.",
+                                    "Me again, still giving my demo at the Capstone Invitational."]
+            }
+        },
+        "chsSlides": {
+            "title": "Concord High Awards/Honors",
+            "numParagraphs": 1,
+            "descriptions": ["High school awards."],
+            "imageData": {
+                "slideName": "slideshow2",
+                "count": 5,
+                "paths": ["./images/MainPage/Accomplishments/CHS/attendance_combined.jpg",
+                          "./images/MainPage/Accomplishments/CHS/class_combined.jpg",
+                          "./images/MainPage/Accomplishments/CHS/general_combined.jpg",
+                          "./images/MainPage/Accomplishments/CHS/grad_combined.jpg",
+                          "./images/MainPage/Accomplishments/CHS/rop_combined.jpg"],
+                "titles": ["Perfect Attendance",
+                           "Class Awards",
+                           "General Awards",
+                           "Graduation",
+                           "ROP Studend of Excellence in Computer Applications"],
+                "descriptions": ["I had perfect attendance for 3/4 years in high school. I think that while some people would say this isn't worth posting because it just shows I 'showed up' I disagree. I think it speaks to my work-ethic to say that I never ditched, and only missed due to illness once in four years.",
+                                 "Here we have the awards I received that were specific to a class in high school. I like to point out that I got a math award for all 4 math courses I took in high school, and a computer award. I think it speaks to my math/logic mind and skills. I also had a few other awards like spanish, physics and history.",
+                                 "Here we have some general awards I received that were both not for attendance and not for a specific course. They speak to hard work and intelligence through my success in advanced placement courses.",
+                                 "Who isn't a bit proud of their diploma? Not me! I'm definitely proud of working hard for four years to graduate high school and continuing on to college. I value education and still have a bit of residual school spirit. Class of 2015, Concord High School.", 
+                                 "This is one of my favorite sets of awards. I got these for being an outstanding student in a Computer Applications course even back in high school. I had to be recommended by my instructor, and I got several nice awards and even got to give a speech."]
+            }
+        }
+    }
+}
