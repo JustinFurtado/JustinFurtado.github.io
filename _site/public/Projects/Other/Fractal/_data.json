@@ -2,6 +2,8 @@
     "index": {
         "game": {
             "title": "Fractal Shader Demo",
+            "numCredits": 0,
+            "credits": [],
             "numParagraphs": 3,
             "descriptions": ["This fractal shader renders a Julia Set fractal, if I'm remembering that correctly. I wrote this a long time ago, so I'm not 100% sure anymore. This shader has gone through a variety of improvement phases by me, including one where it animates to audio data, which was really fun to watch. Sadly the audio analyzing is not supported in WebGL Unity builds, so I instead made a version that accepts keyboard input.",
                              "Use WASD or the Arrow Keys to change the seed values of the fractal. There are two seeds, an X seed (controlled by right, left, D, A) and a Y seed (controller by up, down, W, S). These seeds both affect the image, so changing them in different ways will change the pattern, giving many different images.",

@@ -2,6 +2,8 @@
     "index": {
         "game": {
             "title": "Blocks",
+            "numCredits": 0,
+            "credits": [],
             "numParagraphs": 3,
             "descriptions": ["This was a 1-week assignment given to game development students for the Game Programming and Production course. We were given a simple breakout clone which looked terrible and were told to, in only one week, make it more fun without altering the gameplay.",
                              "To accomplish this, I made the game more 'juicy' with screen-shake, uv-scrolling background, particle effects, sound effects, interpolated start-up animations, score scaling and count-up, and a few other minor enhancements.",

@@ -10,6 +10,24 @@
                              "But more than that I learned that I want to make games. I learned I could have so much fun designing and programming games, even if game sound effects and art assets aren't my strongsuit. It is because of this, because working on this game was the most passionate I've ever been about anything at all ever, that I know in my mind I am destined to be a game developer. If it weren't for this project, I'd be miserable at some other college. Instead, I'm happily preparing myself for my dream job while maintaining a 4.0 working with software development - where I'm happiest.",
                              "Most of the art assets are placeholder. We planned to replace them all. I believe our placeholder assets originated from OpenGameArt.org. We do not claim them as our own. They would not have been shipped with the game if we had finished it. The sound assets (cannot be seen) were actually made by a member of the team with some serious musical talent. Go him.",
                              "We implemented many features that can't be shown effectively here, such as procedural battle map generation, a full-fledged map editor, more weather particle effects, multiple difficulties, a credits screen and much more."],
+            "numCredits": 3,
+            "credits": [
+                {
+                    "prefix": "James Pelster - ",
+                    "link": "#",
+                    "postfix": "No Site Link Availiable"
+                },
+                {
+                    "prefix": "Arnold Lualhati - ",
+                    "link": "#",
+                    "postfix": "No Site Link Availiable"
+                },
+                {
+                    "prefix": "Alex Patton - ",
+                    "link": "#",
+                    "postfix": "No Site Link Availiable"
+                }
+            ],
             "imageData" : {
                 "slideName": "name",
                 "count": 7, 

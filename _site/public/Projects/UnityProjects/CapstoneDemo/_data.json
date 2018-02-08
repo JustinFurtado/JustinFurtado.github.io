@@ -2,6 +2,8 @@
     "index": {
         "game": {
             "title": "Capstone Demo",
+            "numCredits": 0,
+            "credits": [],
             "numParagraphs": 7,
             "descriptions": ["Capstone is the hardest course at Neumont as long as you put your best foot forward. I personally put in as much time and effort as I could into my capstone project - almost 300 hours over the 10 week course. It is a self-driven course that students are supposed to program the most technically deep thing they can accomplish in that time frame.",
                              "First things first. My capstone is a desktop application. What you see demonstrated here is not my capstone editor. It is an example project that makes use of output from my capstone editor to show how useful it can be.",

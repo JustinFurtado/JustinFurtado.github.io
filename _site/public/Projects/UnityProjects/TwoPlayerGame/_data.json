@@ -2,10 +2,18 @@
     "index": {
         "game": {
             "title": "Sumo Game",
+            "numCredits": 1,
+            "credits": [
+                {
+                    "prefix": "Trent Castro - ",
+                    "link": "http://uesugisen.com/index.html",
+                    "postfix": "Trent's Site"
+                }
+            ],
             "numParagraphs": 3,
             "descriptions": ["Another one-week assignment for the Game Programming and Production course at Neumont College of Computer Science. This assignment was a group assignment. I worked in a team of two to make this two-player game. This game, while lacking some assets, definitely achieves fun through its competitive nature and chaotic environemnt. Push your friend off to win!",
                              "The balls that spawn each have a unique effect on whatever player consumes them. The white ball will bounce player off, which can be used strategically but usually just disorients you. The blue ball launches you upwards, allowing you to reach the launching springs and more powerups, or fake out your friend. The black ball makes you temporarily larger, giving you the mass to push off your friend. The green cube makes you 'invisible' allowing you to phase through the other player, again excellent for a fake-out. All powerups stack duration and/or intensity.",
-                             "The other student who I worked on this project with is named Trent Castro. I could not find a link to his site, if he has one."]
+                             "The other student who I worked on this project with is named Trent Castro. A link to his site can be found below."]
         }
     }
 }

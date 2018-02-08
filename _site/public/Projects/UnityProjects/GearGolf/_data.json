@@ -2,6 +2,8 @@
     "index": {
         "game": {
             "title": "Gear Golf",
+            "numCredits": 0,
+            "credits": [],
             "numParagraphs": 2,
             "descriptions": ["For the advanced game physics course, we were given 3-ish weeks to make a game that uses phyiscs, as a fun final assignment because we had finished the engine programming labs early.",
                              "I made a game based around a simple mechanic - click to interact with the environment, and try to get the ball to the purple box using physics! Clicking on the yellow plane will place the ball, and some environment objects (gray ghost cubes, blue spinners, telerporters, bombs and springs) can be interacted with while the ball moves, to give a fun mini-golf-ish game."]
