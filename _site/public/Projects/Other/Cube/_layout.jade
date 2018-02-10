@@ -5,7 +5,7 @@ html
     link(rel="stylesheet" href='#{baseUrl}/css/main.css')
     link(rel="shortcut icon" href="#{baseUrl}/favicon.ico")
     link(rel="stylesheet" href='#{baseUrl}/css/UnityStyle/style.css')
-
+    script(src="#{baseUrl}/loadfancier.js")
   body.bg
     div.container
       div.jumbotron
@@ -15,5 +15,15 @@ html
         script(src="#{baseUrl}/css/Bootstrap/js/bootstrap.min.js")
         script(src="#{baseUrl}/css/UnityStyle/UnityProgress.js")
         script(src="Build/UnityLoader.js")
-        script(src="run.js")
+        script.
+          var interval = setInterval(() => {
+            if (!UnityLoader) {
+              return;
+            }
+            clearInterval(interval);
+            window.gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web.json", {onProgress: UnityProgress});
+
+          }, 100);
+
+
 
