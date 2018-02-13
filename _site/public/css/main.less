@@ -18,17 +18,17 @@ h3{
   font-weight: 300;
 }
 
-.bg { 
-  /* The image used */
-  background-image: url("../images/Fractal/FractalThreeSM.png");
-  /* background: radial-gradient(circle, blue 40%, white 70%, black 80%);*/
-  /* Full height */
+.bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  background-image: url("../images/Fractal/FractalThreeSM.png");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
