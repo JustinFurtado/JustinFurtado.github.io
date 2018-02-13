@@ -4,7 +4,8 @@ html
     link(rel="stylesheet" href='#{baseUrl}/css/Bootstrap/css/bootstrap.min.css')
     link(rel="stylesheet" href='#{baseUrl}/css/main.css')
     script(src="#{baseUrl}/loadfancier.js")
-  body.bg
+  body
+    div.bg(id="MY_BG_HAX")
     div.container
       div.jumbotron
         != partial("../../_partials/header", {activeTab: "projects"})

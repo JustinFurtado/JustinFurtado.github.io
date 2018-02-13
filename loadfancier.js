@@ -1,16 +1,8 @@
-function loadFancier(id, path) {
-    var myImage = document.createElement("img");
-    var element = document.getElementById(id);
-    myImage.onload = () => {
-        element.src = "url(\"" + path + "\")";
-    };
-    myImage.src = path;
-}
-
-(function loadFancierBG(path) {
+(function loadFancier(id, path) {
     var myImage = document.createElement("img");
     myImage.onload = () => {
-        document.body.style.backgroundImage  = "url(\"" + path + "\")";
+        var element = document.getElementById(id);
+        element.style = "background-image: url(\"" + path + "\")";
     };
     myImage.src = path;
-})("/images/Fractal/FractalThree.png");
+})("MY_BG_HAX", "/images/Fractal/FractalThree.png");
