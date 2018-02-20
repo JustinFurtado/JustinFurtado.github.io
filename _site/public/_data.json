@@ -57,7 +57,7 @@
         "projectPreviewSlides": {
             "title": "Project Preview",
             "numParagraphs": 2,
-            "descriptions": ["Here you see a slideshow of some of the projects I have worked on.",
+            "descriptions": ["Here you see a slideshow of some of the projects I have worked on. Click on the image to be taken to the project-specific page.",
                              "I encourage you to check out the My Projects page for more information if you like anything you see!"],
             "numCredits": 1,
             "credits": [
@@ -68,6 +68,25 @@
                 }
             ],
             "imageData": {
+                "linkedShow": "true",
+                "links": [
+                    "Projects/UnityProjects/Gemetary/index.html",
+                    "Projects/UnityProjects/CapstoneDemo/index.html",
+                    "Projects/UnityProjects/GearGolf/index.html",
+                    "Projects/UnityProjects/GeometryShooter/index.html",
+                    "Projects/UnityProjects/TwoPlayerGame/index.html",
+                    "Projects/UnityProjects/Blocks/index.html",
+                    "Projects/Engine/gamelibraries.html",
+                    "Projects/Engine/computergraphics.html",
+                    "Projects/Engine/ai.html",
+                    "Projects/Engine/physics.html",
+                    "Projects/Other/Fractal/index.html",
+                    "Projects/Other/Plat/index.html",
+                    "Projects/Other/DaBlenda/index.html",
+                    "Projects/Other/3DPuzzle/index.html",
+                    "Projects/Other/CPlusPlusTwo/index.html",
+                    "Projects/Other/Cube/index.html"
+                ],
                 "slideName": "slideshow2",
                 "count": 16,
                 "paths": ["./images/Gemetary1_Cropped.png",

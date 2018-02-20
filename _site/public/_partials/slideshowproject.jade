@@ -1,7 +1,11 @@
 div.project-group.p-3.m-5
     h1.text-center.m-4.p-3.font-weight-bold #{inputData.title}
     div.m-4
-        !=partial("slideshow", {images: inputData.imageData})
+        - if (inputData.imageData.linkedShow && inputData.imageData.linkedShow == "true") {
+            !=partial("linkedshow", {images: inputData.imageData})
+        - } else {
+            !=partial("slideshow", {images: inputData.imageData})
+        - }
     - for (var i = 0; i < inputData.numParagraphs; i++){
     p.m-3.text-justify #{inputData.descriptions[i]}
     - }
