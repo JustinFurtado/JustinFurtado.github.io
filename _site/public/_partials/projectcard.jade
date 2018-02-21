@@ -1,6 +1,7 @@
 div(class="#{cardCSS}")
     div.img-hover.text-center.card.m-4.p-4
-        a.nostyle.inline_block(href="#{pagePath}") 
+        - var target = (linkToOtherPage == undefined || !linkToOtherPage) ? "_self" : "_blank";
+        a.nostyle.inline_block(href="#{pagePath}", target="#{target}") 
             h2.font-weight-bold #{projectName} 
             br
             img.img-fluid(src="#{imagePath}")
