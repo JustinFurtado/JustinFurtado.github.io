@@ -1,2 +1,16 @@
 h1.font-weight-bold Welcome, User!
+p 
+    | Here on my site you can see 
+    a(href="./projects.html") projects I've worked on
+    | , 
+    a(href="./about.html") information about me
+    | , 
+    a(href="./contact.html") and ways to contact me
+    | .
+p Like the background? I made it myself. It's a screen snippet of a shader I wrote.
+p 
+    | Below is a slideshow of some of the projects I've worked on. You can click on the image to go directly to that project, or go ahead and check out the 
+    a(href="./projects.html") My Projects 
+    | page to see all the projects I've worked on.
+
 != partial("./_partials/slideshowproject", {inputData: projectPreviewSlides})

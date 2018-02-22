@@ -1,6 +1,16 @@
 h1.text-center.font-weight-bold My Projects
-div.m-5.project-group
-    h1.text-center.m-4.p-3.font-weight-bold Unity Projects
+p Here you will see several of the projects I've worked on that I'm passionate about or proud of. 
+p 
+    | They are grouped into three categories: 
+    a(href="#gameprojects") Game Projects
+    | , 
+    a(href="#gameengineprojects") Game Engine Projects
+    | , and 
+    a(href="#miscprojects") Miscellaneous Projects
+    | . Feel free to look at them! Many are playable in-browser!
+
+div.m-5.project-group(id="gameprojects")
+    h1.text-center.m-4.p-3.font-weight-bold Game Projects
     div.container
         div.row
             != partial("_partials/projectcard", {cardCSS: "col-12", imagePath: "images/Gemetary1_Cropped.png", pagePath: "Projects/UnityProjects/Gemetary/index.html", projectName: "Gemetary", description: "For a 10-week open-ended game-dev course at Neumont I worked my absolute hardest to make a game as cool as I could. That game is Gemetary. It is a 3D infinite maze game, inspired by Pacman. Collect gems, blow up walls, avoid and defeat enemies by scaring them with powerful lanterns. The maze is near-infinite, meaning that while it does have an end, that end is generated far enough out that is is virtually impossible to reach without cheating. Each enemy uses a unique AI (depth-first, path following, AStar), there is difficulty scaling and local high score competition. Feel free to change the options, enjoy the attention to detail (did someone say mouse-hover sound effects for buttons?), look for secret mechanics, or just appreciate that you get a different maze every time you play."})
@@ -11,8 +21,8 @@ div.m-5.project-group
             != partial("_partials/projectcard", {cardCSS: "col-12 col-xl-6", imagePath: "images/SumoGame.png", pagePath: "Projects/UnityProjects/TwoPlayerGame/index.html", projectName: "Sumo Game", description: "Made as another one-week assignment for the Game Engine Projects course, we were told to make a multiplayer game. With a focus on fun gameplay rather than pretty assets, my team member (Trent Castro) and I made a game in which the goal is to push the other player off the edge. It can be very, very competitive and chaotic as four different power-ups spawn faster and faster to increase tension for players and give them new ways to trick the other player off the edge!"})
             != partial("_partials/projectcard", {cardCSS: "col-12 col-xl-6", imagePath: "images/Blocks.png", pagePath: "Projects/UnityProjects/Blocks/index.html", projectName: "Blocks", description: "As an one-week duration assignment for the Game Engine Projects course, we were given a block breaker game and told to, without altering the gameplay, make it more fun. I did this through adding visual and sound effects to keep it interesting. I added particles, changed the music, made the background scroll, added screen-shake, made the score scale and count up, and much more - all in one week!"})
 
-div.m-5.project-group
-    h1.text-center.m-4.p-3.font-weight-bold Engine Projects
+div.m-5.project-group(id="gameengineprojects")
+    h1.text-center.m-4.p-3.font-weight-bold Game Engine Projects
     div.container
         div.row
             != partial("_partials/projectcard", {cardCSS: "col-12 col-xl-6", imagePath: "images/Engine/GameLibraries/DestructibleTerrain.png", pagePath: "Projects/Engine/gamelibraries.html", projectName: "Game Libraries Engine (Q4)", description: "Slideshow of screenshots from the initial version of my game engine! Was expanded upon during later courses."})
@@ -20,8 +30,8 @@ div.m-5.project-group
             != partial("_partials/projectcard", {cardCSS: "col-12 col-xl-6", imagePath: "images/Engine/AI/DargonCeption.png", pagePath: "Projects/Engine/ai.html", projectName: "AI Engine (Q7)", description: "Slideshow of screenshots from the third version of my game engine. This demo reel will show different engine enhancements and pictures of NPCs using implemented AI techniques. The engine was further expanded upon during later courses."})
             != partial("_partials/projectcard", {cardCSS: "col-12 col-xl-6", imagePath: "images/Engine/Physics/SpinnyStuff.png", pagePath: "Projects/Engine/physics.html", projectName: "Physics Engine (Q8)", description: "Slideshow of screenshots from the fourth version of my game engine. This demo reel will show different engine enhancements and pictures of Spheres using physics techniques such as mass and force, conservation of momentum, resting contact, etc."})
 
-div.m-5.project-group
-    h1.text-center.m-4.p-3.font-weight-bold Misc. Projects
+div.m-5.project-group(id="miscprojects")
+    h1.text-center.m-4.p-3.font-weight-bold Miscellaneous Projects
     div.container
         div.row
             != partial("_partials/projectcard", {cardCSS: "col-12 col-lg-6 col-xl-4", imagePath: "images/Fractal/FractalRed.png", pagePath: "Projects/Other/Fractal/index.html", projectName: "Fractal Shader Demo", description: "A long-living shader of mine that I love to use in my projects where possible. Quarters ago I wrote a GLSL fractal shader and have since translated it over so it can be used in my Unity Projects. Here I demo it by giving the user control over the seed values with the keyboard."})
