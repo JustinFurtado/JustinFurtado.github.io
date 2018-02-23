@@ -2,8 +2,13 @@ div(class="#{cardCSS}")
     div.img-hover.text-center.card.m-4.p-4
         - var target = (linkToOtherPage == undefined || !linkToOtherPage) ? "_self" : "_blank";
         a.nostyle.inline_block(href="#{pagePath}", target="#{target}") 
+            - if (playable) {
+            span.fas.fa-gamepad.fa-3x(style="color: #3b5bdb")
+            - } else {
+            span.far.fa-images.fa-3x(style="color: #3b5bdb")
+            - }
             h2.font-weight-bold #{projectName} 
-            br
             img.img-fluid(src="#{imagePath}")
             br
             p.m-3.text-justify #{description}
+
