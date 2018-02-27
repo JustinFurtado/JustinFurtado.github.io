@@ -56,18 +56,10 @@
     "index": {
         "projectPreviewSlides": {
             "title": "Project Preview",
-            "numParagraphs": 3,
+            "numParagraphs": 0,
             "descriptions": ["I'm Justin Furtado, a game developer! On this site you can find information about me, as well as projects I have worked on and ways to contact me.", 
                              "Here you see a slideshow of some of the projects I have worked on. Click on the image to be taken to the project-specific page.",
                              "I encourage you to check out the My Projects page for more information if you like anything you see!"],
-            "numCredits": 1,
-            "credits": [
-                {
-                    "prefix": "Some Projects are group projects (most are solo), find detailed credits on the specific project page.",
-                    "link": "#",
-                    "postfix": ""
-                }
-            ],
             "imageData": {
                 "linkedShow": "true",
                 "linksToOtherPage": [

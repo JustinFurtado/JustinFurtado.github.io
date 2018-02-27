@@ -3,9 +3,9 @@ div(class="#{cardCSS}")
         - var target = (linkToOtherPage == undefined || !linkToOtherPage) ? "_self" : "_blank";
         a.nostyle.inline_block(href="#{pagePath}", target="#{target}") 
             - if (playable) {
-            span.fas.fa-gamepad.fa-3x(style="color: #3b5bdb")
+            span.fas.fa-gamepad.fa-3x(style="color: #3b5bdb", title="Playable In Browser")
             - } else {
-            span.far.fa-images.fa-3x(style="color: #3b5bdb")
+            span.far.fa-images.fa-3x(style="color: #3b5bdb", title="Slideshow of Screenshots")
             - }
             h2.font-weight-bold #{projectName} 
             img.img-fluid(src="#{imagePath}")
