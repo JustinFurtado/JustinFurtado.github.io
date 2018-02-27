@@ -5,6 +5,8 @@
             "numCredits": 0,
             "credits": [],
             "numParagraphs": 3,
+            "numTechnologies": 2,
+            "technologies": ["C#", "Unity"],
             "descriptions": ["A short duration (2-week-ish?) assignment for a course that taught us Unity gave an open-ended game programming assignment. I decided to make a game where you play as a cannon and launch balls at blocks. There is lava on the ground, and you knock over all the gold cubes to win with your limited number of shots.",
                              "Green cubes give bonus points, and red cubed deduct points. A fun fact is that you will get your shot back if it stops on the platform for a certain length of time without falling off. Use this to your advantage as you get bonus points based on how many shots you have remaining at the end of each level! Compete for local high-scores on a per-level basis.",
                              "Each level adds a new mechanic, and depsite how impossible level 4 may seem, it has been beaten by several play testers including myself so I can assure you it is not impossible."]

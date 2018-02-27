@@ -16,6 +16,8 @@
                 }
             ],
             "numParagraphs": 3,
+            "numTechnologies": 2,
+            "technologies": ["C#", "Unity"],
             "descriptions": ["This game was intended to be humorous, inspired by a comedic video found on the internet, Cube was made for fun at a 72 hour game jam by myself and two fellow students who I attended Neumont College of Computer Science with. Their names are Kyle St. Amant and Wesley Sheng. A link to each of their sites can be found at the bottom of the page.",
                              "This game was made using Unity, and features several levels: blue, green, orange, red, yellow. Face the dreaded boss, Cone, during level Red, and earn bonus points in the special yellow challenge level. Reach the goal of each level within the time limit to win.",
                              "The game, despite its simplicity, does show that I can work under tough time conditions with other developers to produce something fun."]

@@ -5,6 +5,8 @@
             "numCredits": 0,
             "credits": [],
             "numParagraphs": 3,
+            "numTechnologies": 3,
+            "technologies": ["C#", "Unity", "HLSL (DirectX Shading Language)"],
             "descriptions": ["This fractal shader renders a Julia Set fractal, if I'm remembering that correctly. I wrote this a long time ago, so I'm not 100% sure anymore. This shader has gone through a variety of improvement phases by me, including one where it animates to audio data, which was really fun to watch. Sadly the audio analyzing is not supported in WebGL Unity builds, so I instead made a version that accepts keyboard input.",
                              "Use WASD or the Arrow Keys to change the seed values of the fractal. There are two seeds, an X seed (controlled by right, left, D, A) and a Y seed (controller by up, down, W, S). These seeds both affect the image, so changing them in different ways will change the pattern, giving many different images.",
                              "I added acceleration and drag to the controls because I thought it felt better to play with the pattern in that way. If the screen is all black - that just means you've altered the seeds such that the fractal image is entirely offscreen. Sorry about that, refresh and try again if you want to see more."]

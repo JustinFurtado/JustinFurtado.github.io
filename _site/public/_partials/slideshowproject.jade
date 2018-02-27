@@ -6,10 +6,22 @@ div.project-group.p-3.m-5
         - } else {
             !=partial("slideshow", {images: inputData.imageData})
         - }
+    - if (inputData.numTechnologies) {
+    h4.m-3.font-weight-bold.text-left Project Tech/Algorithms
+    ul.list-inline-block.m-3
+        - for (var i = 0; i < inputData.numTechnologies; i++){
+        li.d-inline-block.p-1
+            div.my-tech-bg.p-2
+                div.tech-text #{inputData.technologies[i]} 
+        - }
+    - }
+    - if (inputData.numParagraphs) {
+    h4.m-3.font-weight-bold.text-left Extended Project Details
     - for (var i = 0; i < inputData.numParagraphs; i++){
     p.m-3.text-justify #{inputData.descriptions[i]}
     - }
-    - if (inputData.numCredits != undefined) {
+    - }
+    - if (inputData.numCredits !== undefined) {
     h4.m-3.font-weight-bold.text-left Project Credits
     ul.m-3
         li

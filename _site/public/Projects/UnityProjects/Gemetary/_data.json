@@ -4,6 +4,8 @@
             "title": "Gemetary",
             "numCredits": 0,
             "credits": [],
+            "numTechnologies": 6,
+            "technologies": ["C#", "Unity", "Procedural Generation", "Depth-First-Search", "A-Star Pathfinding", "Game Object Pooling and Re-use"],
             "numParagraphs": 10,
             "descriptions": ["Gemetary is an infinite 3D Maze game inspired by Pacman. I made this game using Unity, for a 10-week duration course at Neumont. All of the art and sound assets were obtained either: 1. For free on the Unity Asset Store, or 2. Randomly scattered about the internet, only from places where the assets were marked Public Domain (Creative Commons Zero). All of the C# scripts that make the game run were written solely by me.",
                              "Fun fact about the maze: it is a near-infinite 3D Maze. Yes, you heard that right, there is an end to the maze. Of course, the maze end is so far away that it would take the player over 60 minutes of running in a straight line with infinite invulnerability and wall destruction cheat codes enabled. Yes, I did the math. The maze is procedurally generated using the depth-first search algorithm. You will get a different maze every time you play!",

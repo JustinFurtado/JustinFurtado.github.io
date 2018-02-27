@@ -3,6 +3,8 @@
         "pageData": {
             "title": "Plat",
             "numParagraphs": 4,
+            "numTechnologies": 2,
+            "technologies": ["GameMaker", "GML (Game Maker Language)"],
             "descriptions": ["Plat is a simple 2D Platforming game made by me for a short duration assignment for the Topics in Game Development course at Neumont College of Computer Science.",
                              "Controls are simple: use arrow keys or WASD to move. Space/Up/W to jump, S/Down to interact with a lever. Keys will be used instantly upon touching a key-hole-block. Keep this in mind. Enemies can be defeated by landing on them (watch out for spiked enemies). There is a double jump and wall jump mechanic. Get to the flag to complete the level. Bonus points for landing on enemies in succession without touching the ground between bounces.",
                              "Art assets were supplied by the instructor, so I presume we are allowed to use them. I am under the impression he purchased them from somewhere or found them for free, but am unaware of the actual origins of the assets.",
