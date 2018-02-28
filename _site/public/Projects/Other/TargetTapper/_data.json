@@ -1,0 +1,46 @@
+{
+    "index":{
+        "pageData": {
+            "title": "Target Tapper",
+            "numParagraphs": 4,
+            "descriptions": ["For the final for the Mobile Application Development course, I managed to convince my not-so-game-enthusiastic group members to make a game with me for the open-ended final assignment",
+                             "We made a simple game using OpenGL to render objects to the device. Art assets were made by Quintyn, and code was written by myself and Joshua.",
+                             "The game mechanic is simple, tap the targets, if you miss three you get a game over, if you tap an 'x' object, you lose instantly. Objects spawn faster and faster as the game goes on, and you compete for local high scores saved to the device.",
+                             "It was developed using an android emulator, but did work on a device when we installed it directly after turning on developer mode and what not."],
+            "numTechnologies": 5,
+            "technologies": ["Java", "Android Studio", "Android Emulator", "OpenGL", "GLSL (OpenGL Shading Language)"],
+            "numCredits": 2,
+            "credits": [
+                {
+                    "prefix": "Joshua Funk - No Site Link Availiable",
+                    "link": "",
+                    "postfix": ""
+                },
+                {
+                    "prefix": "Quintyn Smith-Sack - No Site Link Availiable",
+                    "link": "",
+                    "postfix": ""
+                }
+            ],
+            "imageData" : {
+                "slideName": "name",
+                "count": 5, 
+                "paths": ["../../../images/TargetTapper/Title.png",
+                          "../../../images/TargetTapper/GameStart.png",
+                          "../../../images/TargetTapper/GameWithScore.png",
+                          "../../../images/TargetTapper/GameWithHigherScore.png",
+                          "../../../images/TargetTapper/GameOver.png"],
+                "titles": ["Title Screen",
+                           "Gameplay 1",
+                           "Gameplay 2",
+                           "Gameplay 3",
+                           "Game Over"],
+                "descriptions": ["The title screen of the application.",
+                                 "The game shortly after it has started.",
+                                 "The game a bit further in.",
+                                 "The game as things accelerate and get difficult.",
+                                 "The game over screen."]
+            }
+        }
+    }
+}

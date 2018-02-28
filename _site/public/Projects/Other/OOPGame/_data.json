@@ -1,0 +1,52 @@
+{
+    "index":{
+        "pageData": {
+            "title": "Alien's Absolute Anarchy",
+            "numParagraphs": 7,
+            "descriptions": ["A game made for the final assignment for the Object Oriented Programming course at Neumont. This game was a group project, made by me and Gavin Hovseth. Art assets were created by Gavin Hovseth, while I wrote the majority of the code.",
+                             "This game was written in Java, using JavaFX for the graphics. It is a simple 2D space shooter, with three bosses, each with a unique mechanic.",
+                             "The core game contains simple mechanics, where the player can pick up offensive powerups to increase their maximum fire rate, or defensive powerups to survive shots. They can shoot enemies to defeat them, stronger enemies may take multiple hits to defeat, and some enmies move and fire faster than others.",
+                             "After surviving each 'level', the player will face a boss enemy. The first boss enemy consists of four cannons and a head, the cannons can be disabled by shooting at them, and the boss can be killed with fifty shots directly to his head.",
+                             "The second boss can be defeated with 25 shots to each 'door', which will spawn enemies randomly until 'closed'.",
+                             "The final boss consists of three phases, in the first phase the boss spins and shoots the player, until reaching a certain health percentage, at which point he will split into five pieces, four of which will remain and shoot you. After defeating each piece, the remaining piece with no cannons will charge the player, following them directly, defeating them if making contact, and exploding after reaching 0 health.",
+                             "Following the final boss, an endless level is provided for players to get as much score as they can manage. The game ends when the player dies."],
+            "numTechnologies": 2,
+            "technologies": ["Java", "JavaFX"],
+            "numCredits": 1,
+            "credits": [
+            {
+                "prefix": "Gavin Hovseth - No Site Link Availiable",
+                "link": "",
+                "postfix": ""
+            }],
+            "imageData" : {
+                "slideName": "name",
+                "count": 8, 
+                "paths": ["../../../images/OOPGame/Title.png",
+                          "../../../images/OOPGame/BossOne.png",
+                          "../../../images/OOPGame/BossTwo.png",
+                          "../../../images/OOPGame/BossThreeOne.png",
+                          "../../../images/OOPGame/BossThreeTwo.png",
+                          "../../../images/OOPGame/BossThreeThree.png",
+                          "../../../images/OOPGame/EndlessOne.png",
+                          "../../../images/OOPGame/GameOver.png"],
+                "titles": ["Title Screen",
+                           "Boss One",
+                           "Boss Two",
+                           "Boss Three: Phase One",
+                           "Boss Three: Phase Two",
+                           "Boss Three: Phase Three",
+                           "Endless Level",
+                           "Game Over Screen"],
+                "descriptions": ["The title screen is relatively simple - just text and a background.",
+                                 "The first boss of the game. He fires from four cannons, which can be disabled by shooting them. The gray ones are disabled.",
+                                 "The second boss of the game. He spawns enemies from the four openings, which can be closed by shooting them a certain number of times.",
+                                 "The first phase of the final boss battle. He spins and shoots the player rapidly, slowing down as he takes damage to keep the fight dynamic.",
+                                 "The second phase of the final boss battle. He has split into pieces, his cannons fire at you until defeated, ending the phase.",
+                                 "The final phase of the final boss battle. He charges you, defeating you upon contact and slowing down as shot. When his movement ceases completely, he explodes.",
+                                 "The level that continues until the player runs out of lives. Enemies spawn faster with time. All three basic enemy types can be seen here.",
+                                 "The game over screen is also simple."]
+            }
+        }
+    }
+}

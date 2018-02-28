@@ -1,0 +1,17 @@
+doctype
+html
+  head
+    title Justin Furtado's Site
+    link(rel="stylesheet" href='#{baseUrl}/css/Bootstrap/css/bootstrap.min.css')
+    link(rel="stylesheet" href='#{baseUrl}/css/main.css')
+    script(src="#{baseUrl}/loadfancier.js")
+  body
+    div.bg(id="MY_BG_HAX")
+    div.container
+      div.jumbotron
+        != partial("../../../_partials/header", {activeTab: "projects"})
+        != yield
+        != partial("../../../_partials/footer")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+        script(src="#{baseUrl}/css/Bootstrap/js/bootstrap.min.js")
+
