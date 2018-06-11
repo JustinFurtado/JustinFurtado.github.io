@@ -1,13 +1,14 @@
-div.opaqueify
-    ul.nav.nav-pills.text-center
-        //- li.nav-item
-        //-     a.nav-link(href="#{baseUrl}/index.html")
-        //-         img.img-fluid.d-block(src="#{baseUrl}/images/logoSM.png")
-        li.nav-item
-            a.nav-link(class="#{activeTab == 'index' ? 'active' : ''}", href="#{baseUrl}/index.html") Home
-        li.nav-item
-            a.nav-link(class="#{activeTab == 'projects' ? 'active' : ''}", href="#{baseUrl}/projects.html") My Projects
-        li.nav-item
-            a.nav-link(class="#{activeTab == 'contact' ? 'active' : ''}", href="#{baseUrl}/contact.html") Contact Me
-        li.nav-item
-            a.nav-link(class="#{activeTab == 'about' ? 'active' : ''}", href="#{baseUrl}/about.html") About Me
+div.w-100.d-block.myoverflow
+    div.d-inline-block.float-left
+        ul.ml-4.nav.nav-pills.text-center
+            li.nav-item
+                a.nav-link(class="#{activeTab == 'index' ? 'active' : ''}", href="#{baseUrl}/index.html") Home
+            li.nav-item
+                a.nav-link(class="#{activeTab == 'projects' ? 'active' : ''}", href="#{baseUrl}/projects.html") My Projects
+            li.nav-item
+                a.nav-link(class="#{activeTab == 'contact' ? 'active' : ''}", href="#{baseUrl}/contact.html") Contact Me
+            li.nav-item
+                a.nav-link(class="#{activeTab == 'about' ? 'active' : ''}", href="#{baseUrl}/about.html") About Me
+    div.d-inline-block.float-right
+        a.mr-4.float-right(href="https://www.codewars.com/users/jlfurtado", target="_blank")
+            img.img-fluid.d-block.img-hover-no-shadow(src="https://www.codewars.com/users/jlfurtado/badges/large")

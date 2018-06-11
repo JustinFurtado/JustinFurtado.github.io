@@ -61,6 +61,25 @@ h3{
   box-shadow: 16px 16px 2px 1px #CCC;
 }
 
+.img-hover-no-shadow {
+  -webkit-transition: all .3s ease; /* Safari and Chrome */
+  -moz-transition: all .3s ease; /* Firefox */
+  -o-transition: all .3s ease; /* IE 9 */
+  -ms-transition: all .3s ease; /* Opera */
+  transition: all .3s ease;
+  position:relative;
+}
+
+.img-hover-no-shadow:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform:translateZ(0) scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:translateZ(0) scale(1.1); /* Opera */
+  transform:translateZ(0) scale(1.1);
+}
+
 a.nostyle:link {
   text-decoration: inherit;
   color: inherit;
@@ -80,6 +99,10 @@ a.nostyle:visited {
 img {
   object-fit: scale-down;
   border: 5px solid #cccccc;
+}
+
+img.no-border {
+  border: 0px solid #cccccc;
 }
 
 .carousel-caption {
@@ -109,4 +132,8 @@ img {
   color: #ffffff;
   display: inline-block;
   font-size: 150%;
+}
+
+.myoverflow{
+  overflow: hidden;
 }
